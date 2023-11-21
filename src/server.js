@@ -1,7 +1,5 @@
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes');
-//http://notesapp-v1.dicodingacademy.com/
-// chrome://flags/#unsafely-treat-insecure-origin-as-secure
 const init = async () => {
     const server = Hapi.server({
         port: 9000,
